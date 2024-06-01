@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color:white; /* Light red */
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .alert {
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid white; /* Red */
+      border-radius: 5px;
+      color: black; /* Dark red */
+      background-color: white; /* Light red */
+    }
+    .alert-danger {
+      color:black; /* Dark red */
+      background-color: white; /* Light red */
+      border-color:black; /* Red */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="alert alert-danger" role="alert">
+      <h4 class="alert-heading">Registration Error</h4>
+      <p>User registration failed. The email address already exists.</p>
+      <hr>
+      <p class="mb-0">Please try again with a different email address.</p>
+    </div>
+  </div>
+</body>
+</html>
